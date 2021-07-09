@@ -10,5 +10,12 @@ public class ABC {
 		System.out.print("wtmw1");
 		System.out.print("nfu1");
 	}
-
+	public int calculate() {
+		int a[]= {1,2,3};
+		int sum=0;
+		for(int num:a)	
+			sum+=num;
+		
+		return sum;
+	}
 }
